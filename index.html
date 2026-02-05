@@ -15,6 +15,12 @@
       align-items: center;
       font-family: 'Comic Sans MS', cursive;
       overflow: hidden;
+      .photo {
+  width: 200px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
     }
 
     .card {
@@ -72,6 +78,7 @@
 <body>
 
   <div class="card">
+   <img src="erini.jpg" class="photo">
     <h1>Erini, I love you 💖<br>Will you be my Valentine?</h1>
     <div class="buttons">
       <button id="yes" onclick="yesClick()">Sì 💘</button>
